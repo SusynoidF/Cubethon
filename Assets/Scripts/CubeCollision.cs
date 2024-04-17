@@ -1,6 +1,7 @@
 
 using UnityEngine;
 
+
 public class CubeCollision : MonoBehaviour
 {
     public bool grounded = false;

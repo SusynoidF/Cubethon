@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 6aefaa08ae58fa441ab6b7d246fd936a
+  - enabled: 1
+    path: Assets/Scenes/Cubethon.unity
+    guid: 1f8b42741c0f3dd40863aa48de03d563
+  - enabled: 1
+    path: Assets/Scenes/cubethon2.unity
+    guid: 2aaae3c5c5cddfc44893995b0347156e
+  - enabled: 1
+    path: Assets/Scenes/cubethon3.unity
+    guid: c59e71921169039429807480aa926600
   m_configObjects: {}

@@ -3,10 +3,14 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
+     
+    public float scoredown;
     public Text scoreText;
     public Transform player;
     void Update()
     {
-        scoreText.text = player.position.z.ToString("0");
+       
+        float score = player.position.z + scoredown;
+        scoreText.text = score.ToString("0");
     }
 }
